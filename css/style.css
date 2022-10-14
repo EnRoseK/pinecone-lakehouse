@@ -1,0 +1,167 @@
+/* Web Fonts ----------------------- */
+
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.25em; /* 20px on most screens */
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%; /* responsive images */
+}
+
+
+/* Main Styles --------------------- */
+
+#top {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-image: url("../img/mountains.jpg");
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10%;
+}
+
+#top h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+#top .title {
+  font-size: 1.5rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  border-bottom: 2px #999 dotted;
+  text-align: center;
+  padding: 100px 0;
+}
+
+section .intro {
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 0 120px;
+}
+
+section .callout {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg,  #f7b733, #fc4a1a);
+  box-shadow: 0 1px 5px black;
+  padding: 10px 35px;
+  border-radius: 10px;
+  
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+section .callout:hover {
+  background: linear-gradient(90deg, #fc4a1a, #f7b733);
+  box-shadow: none;
+}
+
+section #wildlife {
+  background-image: url("../img/bear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 0px 20px 10px black;
+  height: 600px;
+  width: 100%;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  border-top: #ea8109 15px solid;
+  border-radius: 10px 10px 0 0;
+  padding-top: 18%;
+  padding-left: 10%;
+}
+
+section #wildlife a {
+  text-decoration: none;
+  color: #ea8109;
+}
+
+section #wildlife h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+section #wildlife p {
+  font-size: .9rem;
+  width: 70%;
+}
+
+section .column {
+  display: inline-block;
+  width: 49%;
+  text-align: left;
+}
+
+section .column img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section .column h3 {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+section .column p {
+  color: rgb(84, 84, 84);
+  margin-bottom: 30px;
+}
+
+section .column ul li {
+  margin-bottom: 5px;
+}
+
+section .column ul li a {
+  text-decoration: none;
+  color: #ea8109;
+}
+
+section .column ol li {
+  margin-bottom: 3px;
+  color: rgb(84, 84, 84);
+}
+
+footer {
+  text-align: center;
+  color: rgb(84, 84, 84);
+  padding-bottom: 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ea8109;
+}
+
+
+
+/* Media Queries ------------------- */
+
